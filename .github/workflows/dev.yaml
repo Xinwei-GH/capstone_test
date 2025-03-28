@@ -1,11 +1,7 @@
 name: CI/CD Pipeline for Industrial IoT Application
 
 on:
-  pull_request:
-    branches:
-      - dev
-      - uat
-      - prod
+  workflow_dispatch:  # Manually trigger the workflow
 
 jobs:
   dev:
